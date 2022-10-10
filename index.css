@@ -82,6 +82,13 @@ p{
     border-style: solid;
     border-color: #EEEEEE;
 }
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: white;
+}
+/* small slider started */
 #heading_second_row{
     display: flex;
     margin-top: 20px;
@@ -150,4 +157,240 @@ button {
     height: 410px;
     border: 0.1px solid #E0E0E0;
 }
+ /* header ended */
+ #slider{
+    overflow: hidden;
+    position: relative;
+    top: 40px;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure div {
+    height: 36px;
+    float: left;
+    width: 20%;
+    text-align: center;
+    text-size-adjust: 100%;
+    color: rgb(18, 40, 76);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 36px;
+    background-color: rgb(215, 235, 242);
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
+/* small slide done */
+/* big image slider started */
+html, body { height: 100%;  }
+.slider, .slider .imgs {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    position: relative;
+  }
+  
+  .slider {
+    height: 100%;
+    max-height: 400px;
+  }
+  
+  .slider .imgs {
+    display: flex;
+    overflow: hidden;
+  }
+  
+  .slider .img {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    position: absolute;
+    left: 100%;
+    /* animation duration can't be greater than variable interval in JS! */
+    /* check JS for other settings */
+    animation: .6s cubic-bezier(0.645, 0.045, 0.355, 1) 0s left;
+    animation-fill-mode: forwards;
+    background-size: cover !important;
+    background-position: 50% !important;
+  }
+  
+  /* Change images here */
+  .slider .img:nth-of-type(1) 
+  .slider .img:nth-of-type(2) 
+  .slider .img:nth-of-type(3) 
+  .slider .img:nth-of-type(4) 
+  
+  .slider .img span {
+    padding: 7px 20px;
+    background: rgba(0, 0, 0, .8);
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    color: #f0f0f0;
+    font-size: 14px;
+    font-family: sans-serif;
+  }
+  
+  .dots {
+    position: absolute;
+    bottom: -18px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .dot {
+    width: 8px;
+    height: 8px;
+    background: gray;
+    border-radius: 50%;
+    margin: 0 3px;
+    cursor: pointer;
+  }
+  
+  .active-dot {
+    background: #3f3f3f;
+    cursor: default;
+  }
+  
+  @keyframes leftNext {
+    from { left: 100%; }
+    to { left: 0; }
+  }
+  
+  @keyframes leftCurr {
+    from { left: 0; }
+    to { left: -100%; }
+  }
+  
+  @keyframes rightNext {
+    from { left: -100%; }
+    to { left: 0; }
+  }
+  
+  @keyframes rightCurr {
+    from { left: 0; }
+    to { left: 100%; }
+  }
+  /* new arrival */
+  #slide-new-arrival {
+    width: 90%;
+    margin: auto;
+    
+}
+#slide-above {
+    text-align: center;
+    font-size: 28px;
+    color: #12284c;
+    font-weight: 400;
+    margin-top: 100px;
+}
+
+.slide-parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+}
+
+.slide-child {
+    width: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    display: none;
+}
+
+.slide-child img {
+    height: 200px;
+    width: 75%;
+}
+
+.slide-child img~p {
+    font-size: 14px;
+    color: #8b8c8b;
+}
+
+.slide-child p:nth-child(3) {
+    font-weight: 300;
+}
+
+.slide-child img+p {
+    color: #12284c;
+    letter-spacing: .2px;
+    font-weight: 300;
+}
+
+#slide-leftarrow button,
+#slide-rightarrow button {
+    background: transparent;
+    border: none;
+    height: 100px;
+    font-size: 50px;
+    display: inline-block;
+    color: gray;
+}
+.semi_golden_bg{
+    background-color: #f9f3ec;
+    
+    position: relative;
+    display: block;
+    height: 100%;
+    
+}
+.trend_heading,
+.trend_p{
+    text-align: center;
+    margin-top: 10px;
+}
+.trend_heading{
+    word-break: break-word;
+
+}
+h2{ 
+    font:35px;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    line-height: 29px;
+}
+.semi_golden_bg,
+.containerx{
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
 
