@@ -212,4 +212,8 @@ input[type="submit"]{
     font: 15px;
     text-align: center;
 }
+#status{
+    width:40%;
+    text-align: center;
+}
 

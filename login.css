@@ -211,3 +211,8 @@ input[type="submit"]{
     color: #666;
     font: 15px;
 }
+#error{
+    width:40%;
+    text-align: center;
+    align-items: center;
+}
