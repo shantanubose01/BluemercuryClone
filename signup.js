@@ -19,13 +19,21 @@ var signupData=JSON.parse(localStorage.getItem("userData"))||[];
 var p=document.createElement("p");
 p.innerText=""
 function signup(){
+    event.preventDefault();
+    var data={
+        email:document.getElementById("email").value,
+        firstname:document.getElementById("firstName").value ,
+        lastname:document.getElementById("lastName").value ,
+        password:document.getElementById("password").value ,
+       
+   };
     var email=document.getElementById("email").value ;
-     var isPresent=signupData.filter(function(e)
+     var isPresent=signupData.filter(function(e,i)
      {
        return email==e.email;
      }
      )
-     if(isPresent==true)
+     if(isPresent)
      {
        p.innerText="This email address is already associated with an account. If this account is yours, you can reset your password";
        p.style.color="red";
@@ -37,13 +45,7 @@ function signup(){
        
      }
      else{
-    var data={
-        email:document.getElementById("email").value,
-        firstname:document.getElementById("firstName").value ,
-        lastname:document.getElementById("lastName").value ,
-        password:document.getElementById("password").value ,
-       
-   };
+   
    
     signupData.push(data);
         
