@@ -16,8 +16,27 @@ cll.addEventListener("mouseleave", divDisappear);
 
 document.querySelector("form").addEventListener("submit",signup);
 var signupData=JSON.parse(localStorage.getItem("userData"))||[];
-
+var p=document.createElement("p");
+p.innerText=""
 function signup(){
+    var email=document.getElementById("email").value ;
+     var isPresent=signupData.filter(function(e)
+     {
+       return email==e.email;
+     }
+     )
+     if(isPresent==true)
+     {
+       p.innerText="This email address is already associated with an account. If this account is yours, you can reset your password";
+       p.style.color="red";
+       document.getElementById("status").append(p);
+       document.getElementById("email").value="";
+        document.getElementById("firstName").value="";
+        document.getElementById("lastName").value="";
+        document.getElementById("password").value="";
+       
+     }
+     else{
     var data={
         email:document.getElementById("email").value,
         firstname:document.getElementById("firstName").value ,
@@ -29,10 +48,14 @@ function signup(){
     signupData.push(data);
         
     localStorage.setItem("userData",JSON.stringify(signupData));
+
     
-        
+
+
+}
         
         
     
     
 }
+
