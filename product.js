@@ -509,7 +509,6 @@
     }
     displayProducts(pagedRecords);
 
-
   }
   function handlerolefilter() {
     alert('hlo');
