@@ -151,6 +151,55 @@ button {
     border: 0.1px solid #E0E0E0;
 }
 
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure div {
+    height: 36px;
+    float: left;
+    width: 20%;
+    text-align: center;
+    text-size-adjust: 100%;
+    color: rgb(18, 40, 76);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 36px;
+    background-color: rgb(215, 235, 242);
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
 
 form{
     width:40%;
@@ -161,9 +210,10 @@ form{
 #heading{
     font-family: Montserrat Regular,sans-serif;
     font-size: 34px;
+    font-display:inherit;
     letter-spacing: 1px;
     line-height: 22px;
-    
+    margin-top: 60px;
     text-align: center;
     color: #12284c;
     font-weight: 200;
@@ -181,6 +231,7 @@ form{
     font-weight: lighter;
     color: #666;
     margin: auto;
+    margin-top: 18px;
 
 }
 input[type="text"]{
@@ -189,7 +240,7 @@ input[type="text"]{
     width:100%;
     padding: 12px;
     box-sizing: border-box;
-    margin-top: 12px;
+    margin-top: 18px;
     resize: vertical;
     
 }
@@ -209,11 +260,44 @@ input[type="submit"]{
 }
 #privacy{
     color: #666;
-    font: 15px;
+    font-size: 15px;
     text-align: center;
 }
 #status{
     width:40%;
     text-align: center;
+    align-items: center;
+    padding: .5px .5px;
+}
+a{
+    color: #12284c;
+}
+#h5{
+    display: flex;
+    justify-content: space-between;
+    color: #666;
+    text-align: left;
+     font-size: 10px;
 }
 
+
+input[type="password"]{
+   
+    
+    width:100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 18px;
+    resize: vertical;
+    
+
+}
+
+#flex{
+    display: flex;
+}
+#togglePassword{
+    padding-top: 28px;
+    margin-left: -70px;
+    margin-bottom: -10px;
+}

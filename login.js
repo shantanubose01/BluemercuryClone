@@ -27,19 +27,20 @@ function loginForm(){
     if(email=="" || password=="")
     {
         var b=document.createElement("p");
+        document.getElementById("error").innerHTML="";
         b.innerText="Please Enter Required Field";
         b.style.color="#cb2b2b";
          b.style.width="95%"
          document.getElementById("error").style.backgroundColor="#e4c4c4";
          
          
-         document.getElementById("error").style.height="30px";
+         
          
   
          
          document.getElementById("error").style.textAlign="centre";
          document.getElementById("error").style.margin="auto";
-         b.style.marginTop="5px";
+        
          document.getElementById("error").style.fontSize="18px";
   
          document.getElementById("error").append(b);
@@ -59,12 +60,12 @@ function loginForm(){
     
     if(isPresent.length!=0)
     {
-        alert("Login Success");
+        alert("Login Succefull");
         localStorage.setItem("loginData",JSON.stringify(obj));
         window.location.href=" ";
     }
     else{
-       
+        document.getElementById("error").innerHTML="";
         p.innerText="Incorrect email or password.";
         p.style.color="#cb2b2b";
        p.style.width="95%";
@@ -72,13 +73,13 @@ function loginForm(){
        document.getElementById("error").style.backgroundColor="#e4c4c4";
        
        
-       document.getElementById("error").style.height="40px";
+    
        
 
        
        document.getElementById("error").style.textAlign="centre";
        document.getElementById("error").style.margin="auto";
-       p.style.marginTop="5px";
+    
        document.getElementById("error").style.fontSize="18px";
        
        document.getElementById("error").append(p);
@@ -88,3 +89,13 @@ function loginForm(){
     }
 }
 }
+const togglePassword = document.querySelector('#togglePassword');
+  const password = document.querySelector('#password');
+
+  togglePassword.addEventListener('click', function (e) {
+    // toggle the type attribute
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    // toggle the eye slash icon
+    this.classList.toggle('fa-eye-slash');
+});

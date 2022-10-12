@@ -151,16 +151,66 @@ button {
     height: 410px;
     border: 0.1px solid #E0E0E0;
 }
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 20s slider infinite;
+}
+#slider figure div {
+    height: 36px;
+    float: left;
+    width: 20%;
+    text-align: center;
+    text-size-adjust: 100%;
+    color: rgb(18, 40, 76);
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 36px;
+    background-color: rgb(215, 235, 242);
+}
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25% {
+        left: -100%;
+    }
+    45% {
+        left: -100%;
+    }
+    50% {
+        left: -200%;
+    }
+    70% {
+        left: -200%;
+    }
+    75% {
+        left: -300%;
+    }
+    95% {
+        left: -300%;
+    }
+    100% {
+        left: -400%;
+    }
+}
 
 #login{
     font-family: Montserrat Regular,sans-serif;
     font-size: 34px;
+    font-weight: 400;
     letter-spacing: 1px;
-    
+    position: relative;
     line-height: 29px;
     color: #12284c;
     text-align: center;
-    margin-top: 90px;
+    margin-top: 60px;
     transition: color .2s ease-in-out;
     
 }
@@ -188,9 +238,21 @@ input[type="text"]{
     width:100%;
     padding: 12px;
     box-sizing: border-box;
+    border-color: calc();
     margin-top: 14px;
     resize: vertical;
     
+}
+input[type="password"]{
+   
+    
+    width:100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 18px;
+    resize: vertical;
+    
+
 }
 input[type="submit"]{
     
@@ -215,4 +277,14 @@ input[type="submit"]{
     width:40%;
     text-align: center;
     align-items: center;
+    padding: .5px .5px;
+    
+}
+a{
+    color: #12284c;
+}
+i{
+    margin-left: -30px; 
+cursor: pointer;
+
 }

@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
-    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="stylesheet" href="login.css">
+    <script src="https://kit.fontawesome.com/8b305340ae.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="slideShow()">
     
     <header>
         <div>
@@ -91,13 +92,27 @@
         </div>
     </div>
     </header>
+    <br>
+    <div id="slider">
+        <figure>
+            
+            <div>Due to high volume, shipping maybe delayed </div>
+            <div>Free Shipping for BlueRewards Members</div>
+            <div>Free Gifts with purchase. Browse Now > </div>
+            <div>Free Samples with All Orders </div>
+            <div>Due to high volume, shipping maybe delayed </div>
+            
+        </figure>
+    </div>
+    <br>
+    <br>
 
     <p id="login">LOGIN</p>
     <p id="enter">Please enter your email and password:</p>
     <div id="error"></div>
     <form action="">
     <input id="email" type="text" placeholder="Email">
-    <input id="password" type="text" placeholder="Password">
+    <input id="password" type="password" placeholder="Password">
     <input type="submit" value="Login">
 </form>
     <p id="sign">Don't have an account? <a href="signup.html">create one</a> </p>
