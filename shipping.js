@@ -1,5 +1,4 @@
 var infoArr=JSON.parse(localStorage.getItem("infoList"))||[];
-
 displayData(infoArr);
 
   function displayData(infoArr){
