@@ -40,12 +40,6 @@ function signup(){
       b.style.color="#cb2b2b";
        b.style.width="95%"
        document.getElementById("status").style.backgroundColor="#e4c4c4";
-       
-       
-      
-       
-
-       
        document.getElementById("status").style.textAlign="centre";
        document.getElementById("status").style.margin="auto";
        b.style.marginTop="5px";
@@ -86,12 +80,7 @@ function signup(){
        p.style.width="95%"
        document.getElementById("status").style.backgroundColor="#e4c4c4";
        
-       
-       
-       
-
-       
-       document.getElementById("status").style.textAlign="centre";
+        document.getElementById("status").style.textAlign="centre";
        document.getElementById("status").style.margin="auto";
        document.getElementById("status").style.fontSize="18px";
 

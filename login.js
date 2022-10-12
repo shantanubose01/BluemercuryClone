@@ -33,11 +33,6 @@ function loginForm(){
          b.style.width="95%"
          document.getElementById("error").style.backgroundColor="#e4c4c4";
          
-         
-         
-         
-  
-         
          document.getElementById("error").style.textAlign="centre";
          document.getElementById("error").style.margin="auto";
         
@@ -62,7 +57,7 @@ function loginForm(){
     {
         alert("Login Succefull");
         localStorage.setItem("loginData",JSON.stringify(obj));
-        window.location.href=" ";
+        window.location.href="index.html";
     }
     else{
         document.getElementById("error").innerHTML="";
@@ -72,12 +67,7 @@ function loginForm(){
       
        document.getElementById("error").style.backgroundColor="#e4c4c4";
        
-       
-    
-       
-
-       
-       document.getElementById("error").style.textAlign="centre";
+        document.getElementById("error").style.textAlign="centre";
        document.getElementById("error").style.margin="auto";
     
        document.getElementById("error").style.fontSize="18px";

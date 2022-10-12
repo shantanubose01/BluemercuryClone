@@ -301,3 +301,14 @@ input[type="password"]{
     margin-left: -70px;
     margin-bottom: -10px;
 }
+#foot {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr 1fr 1fr;
+    width: 90%;
+    margin: 25px auto;
+    grid-gap: 50px;
+    color: #7d7d7d;
+}
+hr{
+    margin-top: 200px;
+}
