@@ -16,7 +16,6 @@ var city=document.getElementById("City").value;
 var state=document.getElementById("State").value;
 var code=document.getElementById("Code").value;
 
-
 var obj={};
 obj.number=number;
 obj.name=name;
