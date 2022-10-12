@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+     img{
+        width: 20%;
+        margin-left: 39%;
+        margin-top: 2%;
+     }
+
+     #par{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #909392;
+        margin-bottom: 3%;
+     }
+
+     #parag{
+        font-family: Arial, Helvetica, sans-serif;
+        color: #909392;
+     }
+
+     a{
+      color: #909392;
+     }
+
+     #para{
+        color: black;
+     }
+
+     #lb1{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        color: #3F4040;
+
+     }
+     #lb2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        color: #747676;
+
+     }
+     #email{
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+     #middle{
+        width: 48%;
+        margin: auto;
+        margin-left: 27%;
+     }
+
+     #form2{
+        padding: 3px 20px 20px 20px;
+     }
+
+     #lb3{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 17px;
+        color: black;
+
+     }
+     #country{
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+
+     #firstname{
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+        box-sizing: border-box;
+     }
+    
+
+  #in1{
+   display: flex;
+   gap: 3px;
+   }
+
+     #lastname{
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+        box-sizing: border-box;
+     }
+
+     #address{
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+
+     #apartment{
+        padding: 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+
+     #city{
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+
+     #state{
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+     #code{
+        box-sizing: border-box;
+        padding: 10px 10px 10px 10px;
+        width: 100%;
+        border: 1px solid #515252;
+        margin-top: 15px;
+        margin-bottom: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        border-radius: 5px;
+     }
+
+     #submit{
+        box-sizing: border-box;
+        padding: 10px 15px 10px 15px;
+        border: 1px solid #515252;
+        background-color: #020642;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        margin-left: 52%;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        color: white;
+        text-align: center;
+        cursor: pointer;
+     }
+
+     #bottom{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 15px;
+        color: #878789; 
+      }
+
+  #check{
+       cursor: pointer;
+      }
+     
