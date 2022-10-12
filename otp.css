@@ -25,7 +25,6 @@ img{
         color: black;
      }
          #op{
-          /* border: solid red; */
           display: flex;
           flex-wrap: wrap;
           justify-content: space-between;
