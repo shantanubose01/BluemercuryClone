@@ -89,9 +89,17 @@
 var slideRight = 4;
 var slideLeft1 = 1;
 var slideRight1 = 4;
+var slideLeft2 = 1;
+var slideRight2 = 4;
 function slideShow() {
     for (let i = slideLeft; i <= slideRight; i++) {
         document.getElementById("sc" + i).style.display = "inline-block";
+    }
+    for(var i = slideLeft1 ; i<= slideRight1 ;i++){
+      document.getElementById("scent"+i).style.display= "inline-block";
+    }
+    for(var i = slideLeft2 ; i<= slideRight2 ;i++){
+      document.getElementById("bs"+i).style.display= "inline-block";
     }
 }
 function slideMoveRight() {
@@ -107,6 +115,32 @@ function slideMoveRight() {
         return;
     }
 }
+function slideMoveRight1() {
+  if (slideRight1 <= 7) {
+      document.getElementById("scent" + slideLeft1).style.display = "none";
+      slideLeft1 += 1;
+      slideRight1 += 1;
+
+      for (let i = slideLeft1; i <= slideRight1; i++) {
+          document.getElementById("scent" + i).style.display = "inline-block";
+      }
+  } else {
+      return;
+  }
+}
+function slideMoveRight2() {
+  if (slideRight2 <= 7) {
+      document.getElementById("bs" + slideLeft2).style.display = "none";
+      slideLeft2 += 1;
+      slideRight2 += 1;
+
+      for (let i = slideLeft2; i <= slideRight2; i++) {
+          document.getElementById("bs" + i).style.display = "inline-block";
+      }
+  } else {
+      return;
+  }
+}
 function slideMoveLeft() {
     if (slideLeft >= 2) {
         document.getElementById("sc" + slideRight).style.display = "none";
@@ -119,4 +153,30 @@ function slideMoveLeft() {
     } else {
         return;
     }
+}
+function slideMoveLeft1() {
+  if (slideLeft1 >= 2) {
+      document.getElementById("scent" + slideRight1).style.display = "none";
+      slideLeft1 -= 1;
+      slideRight1 -= 1;
+
+      for (let i = slideLeft1; i <= slideRight1; i++) {
+          document.getElementById("scent" + i).style.display = "inline-block";
+      }
+  } else {
+      return;
+  }
+}
+function slideMoveLeft2() {
+  if (slideLeft2 >= 2) {
+      document.getElementById("scent" + slideRight2).style.display = "none";
+      slideLeft2 -= 1;
+      slideRight2 -= 1;
+
+      for (let i = slideLeft2; i <= slideRight2; i++) {
+          document.getElementById("bs" + i).style.display = "inline-block";
+      }
+  } else {
+      return;
+  }
 }
