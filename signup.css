@@ -312,3 +312,15 @@ input[type="password"]{
 hr{
     margin-top: 200px;
 }
+#foot_first>p{
+    color: #999999; font-size:14px
+}
+#foot_second>p{
+    color: #999999; font-size:14px
+}
+#foot_third>p{
+    color: #999999; font-size:14px
+}
+#foot_fourth>p{
+    color: #999999; font-size:14px
+}
