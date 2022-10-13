@@ -1,8 +1,8 @@
-document.getElementById("form2").addEventListener("submit",myForm);
+document.getElementById("gotoship").addEventListener("click",myForm);
 var infoArr=JSON.parse(localStorage.getItem("infoList"))||[];
 
-function myForm(){
-  event.preventDefault();
+function myForm(e){
+  e.preventDefault();
   var infoObj={
     email: document.getElementById("email").value,
     country: document.getElementById("country").value,
@@ -24,4 +24,7 @@ function myForm(){
   document.getElementById("city").value="";
   document.getElementById("state").value="";
   document.getElementById("code").value="";
+
+
+  window.open("shipping.html","_self");
 }

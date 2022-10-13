@@ -1,3 +1,8 @@
+document.getElementById("submit").addEventListener("click",openpaymentfunc);
+function openpaymentfunc(){
+  window.open("payment.html");
+}
+
 var infoArr=JSON.parse(localStorage.getItem("infoList"))||[];
 displayData(infoArr);
 
@@ -34,5 +39,5 @@ displayData(infoArr);
       tr.append(td1,td2,td3,td4,td5,td6,td7,td8);
       document.getElementById("body2").append(tr);
     });
-    window.location.href='payment.html';
+    
 }
