@@ -65,7 +65,7 @@ function loginForm(){
         alert("Login Succefull");
         }
         localStorage.setItem("loginData",JSON.stringify(obj));
-        window.location.href="index.html";
+    
     }
     else{
         document.getElementById("error").innerHTML="";
