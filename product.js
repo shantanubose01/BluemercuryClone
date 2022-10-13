@@ -302,7 +302,7 @@ var productData = [
   {
     id: 38,
     image_url:
-      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-814309022928-v-20221010T060027Z-1_235x.jpg?v=1665385657",
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-850033160055-1_235x.jpg?v=1665086570",
     name: "OURSELF",
     title: "Brightening Peel",
     price: "$" + "" + 110,
@@ -310,7 +310,7 @@ var productData = [
   {
     id: 39,
     image_url:
-      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-005floz15ml-893689003826-1_235x.jpg?v=1664935004",
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-814309022928-v-20221010T060027Z-1_235x.jpg?v=1665385657",
     name: "LUNE+ASTER",
     title: "Revive in Five! Five Minute Rescue Mask Assortment",
     price: "$" + "" + 32,
@@ -329,97 +329,445 @@ var productData = [
       "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-6ml-840732118419-1_235x.jpg?v=1663877408",
     name: "NEST NEW YORK",
     title: "Turkish Rose Perfume Oil",
-    price: "$" + "" + 110,
+    price: "$" + "" + 35 + " - " + "$" + "" + 98,
   },
   {
     id: 42,
     image_url:
-      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-005floz15ml-893689003826-1_235x.jpg?v=1664935004",
-    name: "REVITALASH",
-    title: "Revitabrow Advanced Eyebrow Conditioner",
-    price: "$" + "" + 58 + " - " + "$" + "" + 110,
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-6ml-840732118402-1_235x.jpg?v=1663175675",
+    name: "NEST NEW YORK",
+    title: "Seville Orange Perfume Oil",
+    price: "$" + "" + 35 + " - " + "$" + "" + 98,
   },
   {
     id: 43,
     image_url:
-      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-005floz15ml-893689003826-1_235x.jpg?v=1664935004",
-    name: "REVITALASH",
-    title: "Revitabrow Advanced Eyebrow Conditioner",
-    price: "$" + "" + 58 + " - " + "$" + "" + 110,
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-100ml-690251122462-1_235x.jpg?v=1663531662",
+    name: "JO MALONE LONDON",
+    title: "Limited Edition English Pear & Freesia Cologne",
+    price: "$" + "" + 80 + " - " + "$" + "" + 155,
   },
   {
     id: 44,
     image_url:
-      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-005floz15ml-893689003826-1_235x.jpg?v=1664935004",
-    name: "REVITALASH",
-    title: "Revitabrow Advanced Eyebrow Conditioner",
-    price: "$" + "" + 58 + " - " + "$" + "" + 110,
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-690251123889-1_235x.jpg?v=1664948868",
+    name: "JO MALONE LONDON",
+    title: "Limited Edition English Pear & Freesia Hand Care Collection",
+    price: "$" + "" + 48,
   },
   {
     id: 45,
     image_url:
-      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-005floz15ml-893689003826-1_235x.jpg?v=1664935004",
-    name: "REVITALASH",
-    title: "Revitabrow Advanced Eyebrow Conditioner",
-    price: "$" + "" + 58 + " - " + "$" + "" + 110,
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-859675001054-1_235x.jpg?v=1662127979",
+    name: "THE LAUNDRESS",
+    title: "Cedar Wool & Cashmere Shampoo",
+    price: "$" + "" + 22,
   },
   {
     id: 46,
     image_url:
-      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-005floz15ml-893689003826-1_235x.jpg?v=1664935004",
-    name: "REVITALASH",
-    title: "Revitabrow Advanced Eyebrow Conditioner",
-    price: "$" + "" + 58 + " - " + "$" + "" + 110,
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-850023780102-1_235x.jpg?v=1665084323",
+    name: "NETTE",
+    title: "Chai Milk",
+    price: "$" + "" + 82,
   },
   {
     id: 47,
     image_url:
-      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-005floz15ml-893689003826-1_235x.jpg?v=1664935004",
-    name: "REVITALASH",
-    title: "Revitabrow Advanced Eyebrow Conditioner",
-    price: "$" + "" + 58 + " - " + "$" + "" + 110,
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-850023780133-1_235x.jpg?v=1663862910",
+    name: "NETTE",
+    title: "Sunday Chess",
+    price: "$" + "" + 82,
   },
   {
     id: 48,
     image_url:
-      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-005floz15ml-893689003826-1_235x.jpg?v=1664935004",
-    name: "REVITALASH111",
-    title: "Revitabrow Advanced Eyebrow Conditioner",
-    price: "$" + "" + 58 + " - " + "$" + "" + 110,
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-817237011934-v-20221010T060027Z-1_235x.jpg?v=1665383288",
+    name: "M-61",
+    title: "PowerGlow Pro+ Niacinamide+Neuropeptide Cream",
+    price: "$" + "" + 88,
   },
   {
     id: 49,
     image_url:
-      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-005floz15ml-893689003826-1_235x.jpg?v=1664935004",
-    name: "REVITALASH",
-    title: "Revitabrow Advanced Eyebrow Conditioner",
-    price: "$" + "" + 58 + " - " + "$" + "" + 110,
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-727080240712-1_235x.jpg?v=1665073286",
+    name: "LAFCO",
+    title: "Spiced Pomander Classic Candle",
+    price: "$" + "" + 46,
   },
   {
     id: 50,
     image_url:
-      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-005floz15ml-893689003826-1_235x.jpg?v=1664935004",
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-727080240705-1_235x.jpg?v=1665073303",
+    name: "LAFCO",
+    title: "Spiced Pomander Signature Candle",
+    price: "$" + "" + 70,
+  },
+  {
+    id: 51,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-810374029725-1_235x.jpg?v=1661862814",
+    name: "R+CO",
+    title: "Labyrinth 3-in-1 Texturizing Shampoo + Conditioner + Styler",
+    price: "$" + "" + 36,
+  },
+  {
+    id: 52,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-color-peachflush-850010474502-1_235x.jpg?v=1663373135",
+    name: "LAFCO",
+    title: "RÓEN BEAUTY",
+    price: "$" + "" + 36,
+  },
+  {
+    id: 53,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-840732116439-1_235x.jpg?v=1663262855",
+    name: "NEST NEW YORK+CO",
+    title: "Autumn Plum Reed Diffuser",
+    price: "$" + "" + 58,
+  },
+  {
+    id: 54,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-840732116392-1_235x.jpg?v=1663262838",
+    name: "LAFCO",
+    title: "Autumn Plum Classic",
+    price: "$" + "" + 46,
+  },
+  {
+    id: 55,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-17floz50ml-087327013753-1_235x.jpg?v=1665086878",
+    name: "LAKE & SKYE",
+    title: "Santal Gray Eau de Parfum",
+    price: "$" + "" + 36 + " - " + "$" + "" + 98,
+  },
+  {
+    id: 56,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-087327013814-1_235x.jpg?v=1665086869",
+    name: "LAKE & SKYE",
+    title: "Santal Gray Candle",
+    price: "$" + "" + 48,
+  },
+  {
+    id: 57,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-887167539594-1_235x.jpg?v=1663263133",
+    name: "ESTÉE LAUDER",
+    title: "Revitalizing Supreme+ Night Restorative Creme Moisturizer",
+    price: "$" + "" + 102,
+  },
+  {
+    id: 58,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-810081490153-1_235x.jpg?v=1662478990",
+    name: "R+CO BLEU",
+    title: "De Luxe Reparative Conditioner",
+    price: "$" + "" + 59,
+  },
+  {
+    id: 59,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-390205022861-v-20221010T060027Z-1_235x.jpg?v=1665414918",
+    name: "ELTAMD",
+    title: "UV Lotion Broad-Spectrum SPF 30+",
+    price: "$" + "" + 40,
+  },
+  {
+    id: 60,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-color-1c1coolbone-887167509283-1_235x.jpg?v=1660739724",
+    name: "ESTÉE LAUDER",
+    title: "Double Wear Stay in Place Matte Powder Foundation",
+    price: "$" + "" + 48,
+  },
+  {
+    id: 61,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-810045751467-1_235x.jpg?v=1662740412",
+    name: "M-WANDER BEAUTY",
+    title: "B.O.M. Voyage Cleansing Balm",
+    price: "$" + "" + 34,
+  },
+  {
+    id: 62,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-color-skinnydip-810045751542-1_235x.jpg?v=1660784755",
+    name: "WANDER BEAUTY",
+    title: "Lip Retreat Oil",
+    price: "$" + "" + 22,
+  },
+  {
+    id: 63,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-color-bossbabeintheclear-810045751641-1_235x.jpg?v=1660791897",
+    name: "WANDER BEAUTY",
+    title: "Double Booked Lip Cream",
+    price: "$" + "" + 26,
+  },
+  {
+    id: 64,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-color-yarrow-656509038572-v-20221011T044452Z-1_235x.jpg?v=1665464379",
+    name: "CHANTECAILLE",
+    title: "Cougar Lip Chic",
+    price: "$" + "" + 64,
+  },
+  {
+    id: 65,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-color-orchid-656509038596-v-20221011T044452Z-1_235x.jpg?v=1665464953",
+    name: "CHANTECAILLE",
+    title: "Jaguar Lip Chic",
+    price: "$" + "" + 48,
+  },
+  {
+    id: 66,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-5056379589719-1_235x.jpg?v=1661904225",
+    name: "CHRISTOPHE ROBIN",
+    title: "Hydrating Cream Scrub wtih Aloe Vera",
+    price: "$" + "" + 43,
+  },
+  {
+    id: 67,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-7290113148840-1_235x.jpg?v=1661452710",
+    name: "MOROCCANOIL",
+    title: "Signature Scent Duo",
+    price: "$" + "" + 58,
+  },
+  {
+    id: 68,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-810374029701-1_235x.jpg?v=1661279296",
+    name: "R+CO",
+    title: "Zipper Multitasking Styling Lotion",
+    price: "$" + "" + 29,
+  },
+  {
+    id: 69,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-670959117854-1_235x.jpg?v=1665000237",
+    name: "JANE IREDALE",
+    title: "Glow Time Stick Trio Kit",
+    price: "$" + "" + 76,
+  },
+  {
+    id: 70,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-size-8ml-840732110727-1_235x.jpg?v=1664081576",
+    name: "Wisteria Blue Eau de Parfum",
+    title: "Zipper Multitasking Styling Lotion",
+    price: "$" + "" + 28 + " - " + "$" + "" + 82,
+  },
+  // {
+  //   id: 71,
+  //   image_url:
+  //     "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-850023780171-1_235x.jpg?v=1665014796",
+  //   name: " NETTE",
+  //   title: "The Magician",
+  //   price: "$" + "" +82,
+  // },
+
+  {
+    id: 72,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-727080241207-1_235x.jpg?v=1665389567",
+    name: "LAFCO ",
+    title: "Spiced Pomander Pura Refill",
+    price: "$" + "" + 18,
+  },
+  {
+    id: 73,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-747930142409-1_235x.jpg?v=1665389556",
+    name: "LA MER ",
+    title: "The Replenishing Moisture Collection",
+    price: "$" + "" + 210,
+  },
+  // {
+  //   id: 74,
+  //   image_url:
+  //     "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-747930152989-1_ab273bae-6158-4041-98ff-2481ac3c806d_235x.jpg?v=1665389548",
+  //   name: " LA MER",
+  //   title: "The Moisturizing Soft Cream Duet",
+  //   price: "$" + "" +380,
+  // },
+
+  {
+    id: 75,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-3700431418395-1_235x.jpg?v=1663003737",
+    name: "DIPTYQUE ",
+    title: "34 Boulevard Saint Germain Car Diffuser with insert",
+    price: "$" + "" + 110,
+  },
+
+  {
+    id: 76,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-3700431440839-1_235x.jpg?v=1663003753",
+    name: "DIPTYQUE ",
+    title: "34 Boulevard Saint Germain Reed Diffuser",
+    price: "$" + "" + 200,
+  },
+
+  {
+    id: 77,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-3700431440846-1_235x.jpg?v=1663003763",
+    name: "DIPTYQUE ",
+    title: "34 Boulevard Saint Germain Reed Diffuser Refill",
+    price: "$" + "" + 100,
+  },
+  {
+    id: 78,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-3700431440877-1_235x.jpg?v=1663003771",
+    name: "DIPTYQUE ",
+    title: "34 Boulevard Saint Germain Roomspray",
+    price: "$" + "" + 78,
+  },
+
+  {
+    id: 79,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-7290113149755-1_235x.jpg?v=1665389837",
+    name: "MOROCCANOIL ",
+    title: "A Window to Hydration Holiday Gift Set",
+    price: "$" + "" + 68,
+  },
+
+  {
+    id: 80,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-008080163301-1_235x.jpg?v=1664951581",
+    name: "MOLTON BROWN",
+    title: "Rose Dunes Bath & Shower Gel",
+    price: "$" + "" + 35,
+  },
+
+  {
+    id: 81,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-7290113149670-1_235x.jpg?v=1665389850",
+    name: "MOROCCANOIL ",
+    title: "Hydrating Superstars Holiday Gift Set",
+    price: "$" + "" + 24,
+  },
+
+  {
+    id: 82,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-5060403580436-1_235x.jpg?v=1663329955",
+    name: "BOUCLEME ",
+    title: "Unisex Curl Conditioner",
+    price: "$" + "" + 38,
+  },
+
+  {
+    id: 83,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-840216933149-1_235x.jpg?v=1665073494",
+    name: "LIVGING PROOF ",
+    title: "Brilliantly Full Set",
+    price: "$" + "" + 60,
+  },
+  {
+    id: 84,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-840216933071-1_235x.jpg?v=1665073500",
+    name: "LIVING PROOF ",
+    title: "Brilliantly The Best Set",
+    price: "$" + "" + 39,
+  },
+
+  {
+    id: 85,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-810050680226-1_235x.jpg?v=1665389347",
+    name: "KEVYN AUCOIN ",
+    title: "The Beatuy STars:Eye-Defining Lash + Liner Trio",
+    price: "$" + "" + 60,
+  },
+
+  {
+    id: 86,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-850008143502-1_235x.jpg?v=1663459794",
+    name: "ODACITE ",
+    title: "Vitamin C & E + Hyaluronic Acid Brightening Serum",
+    price: "$" + "" + 68,
+  },
+
+  {
+    id: 87,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-859675001061-1_235x.jpg?v=1663359209",
+    name: "THE LAUNDRESS ",
+    title: "Classic Fabric Conditioner",
+    price: "$" + "" + 20,
+  },
+  {
+    id: 88,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-818426020294-1_235x.jpg?v=1663459843",
+    name: "REVITALASH ",
+    title: "Double - Ended Mascara Primer",
+    price: "$" + "" + 34.50,
+  },
+
+  {
+    id: 89,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-color-darkbrown-893689003277-1_235x.jpg?v=1663618214",
     name: "REVITALASH",
-    title: "Revitabrow Advanced Eyebrow Conditioner",
-    price: "$" + "" + 58 + " - " + "$" + "" + 110,
+    title: "Hi Def Brow Gel",
+    price: "$" + "" + 32,
+  },
+
+  {
+    id: 90,
+    image_url:
+      "https://cdn.shopify.com/s/files/1/0283/0185/2747/products/global_images-818426021024-1_235x.jpg?v=1663459870",
+    name: "REVITALASH ",
+    title: "Micellar Water Lash Wash",
+    price: "$" + "" + 32,
   },
 
 ];
 
+localStorage.setItem('products',  JSON.stringify(productData));
+var untouchedProducts = productData;
+
 calculateProductPaging(1);
 // displayProducts();
 buildPagingButtons(productData);
+
+document.getElementById('checkbtn').addEventListener("change",function(){
+
+  var cb = document.getElementById('checkbtn');
+  if(!cb.checked){
+    document.getElementsByClassName('sliderbtn')[0].innerText = ''
+  }else{
+    document.getElementsByClassName('sliderbtn')[0].innerText = 'Yes'
+  }
+});
+
 function displayProducts(productsToDisplay) {
   if (document.querySelector("#collectionProductCardGrid")) {
     document.querySelector("#collectionProductCardGrid").innerHTML = '';
   }
 
   productsToDisplay.map(function (ele, i) {
-    //debugger
+
     var div = document.createElement("div");
     div.setAttribute("class", "productcard");
 
-    var newtext = document.createElement("p");
+    var newtext = document.createElement("span");
     newtext.setAttribute("class", "merchbadge");
     newtext.innerText = "New";
 
@@ -467,10 +815,11 @@ function displayProducts(productsToDisplay) {
 
     cartbtn.addEventListener("click", function () {
       addToCart(i);
+      alert("Product is added");
     });
 
 
-    div.append(newtext, concious, image, h3, title, price, cartbtn);
+    div.append(newtext,imageheart, concious, image, h3, title, price, cartbtn);
     document.querySelector("#collectionProductCardGrid").append(div);
 
   });
@@ -486,7 +835,7 @@ function addToCart(index) {
 
 function buildPagingButtons(products) {
   var totalProducts = products.length;
-  var recordsPerPage = 12;
+  var recordsPerPage = 20;
   var totalbuttons = Math.ceil(totalProducts / recordsPerPage);
   localStorage.setItem('totalButtons', totalbuttons);
   for (var i = 1; i <= totalbuttons; i++) {
@@ -500,8 +849,9 @@ function buildPagingButtons(products) {
 }
 
 function calculateProductPaging(selectedPageNumber) {
-  //debugger
-  var totalRecords = productData.length;
+  
+  var productDataCopy = productData;
+  var totalRecords = productDataCopy.length;
   var perPageRecoreds = 20;
   var choosenPageNo = +selectedPageNumber;
   var lastRecordsLength = choosenPageNo * perPageRecoreds;
@@ -510,7 +860,7 @@ function calculateProductPaging(selectedPageNumber) {
 
   // console.log(productData);
   var sortBy = document.getElementById('filterrole').value;
-  productData = sortLH(sortBy);
+  productDataCopy = sortLH(sortBy);
 
 
   //console.log(productData);
@@ -519,7 +869,7 @@ function calculateProductPaging(selectedPageNumber) {
     if (productData.length < i) {
       continue;
     }
-    pagedRecords.push(productData[i - 1]);
+    pagedRecords.push(productDataCopy[i - 1]);
   }
 
   var btn_prev = document.getElementsByClassName("PreviousPage");
@@ -545,20 +895,42 @@ function calculateProductPaging(selectedPageNumber) {
 
 
 function sortLH(sortBy) {
-  //debugger
+  
+  var productDataCopy = productData;
+  
+  var sortedData = [];
+  // productData = productData.filter(function(ele){
+  if (sortBy === 'Featured')
+    return JSON.parse(localStorage.products);
+
+  // });
+  // console.log(productData);
+
+  if (sortBy == "ascending") {
+    sortedData = productDataCopy.sort(function (a, b) {
+      // if(a.name > b.name) return 1;
+      if (a.name < b.name) return -1;
+      return 0;
+    });
+    console.log(sortedData);
+    console.log("hello");
+  }
+
+
+
   if (sortBy == "Price, Low to High") {
-    productData = productData.sort(function (a, b) {
+    sortedData = productDataCopy.sort(function (a, b) {
       return parseInt(a.price.substring(1)) - parseInt(b.price.substring(1));
     });
   }
   else if (sortBy == "Price, High to Low") {
-    productData = productData.sort(function (a, b) {
+    sortedData = productDataCopy.sort(function (a, b) {
       return parseInt(b.price.substring(1)) - parseInt(a.price.substring(1));
     });
   }
 
 
-  return productData;
+  return sortedData;
   // localStorage.setItem("sortprice", JSON.stringify(productInCart1));
 }
 

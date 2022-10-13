@@ -8,6 +8,7 @@
   text-transform: uppercase;
   color: #12284c;
   margin-left: 17px;
+  cursor: pointer;
 }
 .header_item{
   display: flex;
@@ -105,6 +106,7 @@ header {
 }
 .heading_a{
   text-decoration: none;
+  cursor: pointer;
   font-weight:100;
   color: rgba(18, 40, 76, 0.8);
   font-size: 14px;
@@ -160,6 +162,10 @@ button {
   width: 0%;
   height: 410px;
   border: 0.1px solid #E0E0E0;
+}
+.menuanchor {
+  color: #12284c;
+  text-decoration: none;
 }
 /* header ended */
 /* small slider started */
@@ -228,35 +234,23 @@ button {
   grid-gap: 50px;
   color: #7d7d7d;
 }
-
-#foot div button {
-  border: none;
-  background: transparent;
-}
-
-#foot div input {
-  background: transparent;
-  border: none;
-}
-
-
-
-#foot-first {
-  font-size: 14px;
-}
-
-
-#foot-first div:nth-child(4) {
-  font-size: 14px;
-  margin: 10px 0px;
-  width: 80%;
-}
-#foot-first div {
-  color: #999999;
-}
-.copyright {
+.copyright{
   font-size: 10px;
 }
+#socialicons{
+  display: flex;
+  justify-content: space-between;
+  padding-right: 50px;
+  color: #12284c;
+}
+#foot_p{
+  color: #999999; 
+  font-size:14px;
+}
+#underline{
+  text-decoration: underline;
+}
+
 /* footer done */
 
 /* css of new-arrival page */
@@ -595,7 +589,7 @@ img.productImage {
   margin-top: -12px;
 }
 button.pagingButton {
-  cursor: pointer;
+  cursor: pointer !important;
   height: 50px;
   line-height: 50px;
   text-align: center;
@@ -644,5 +638,15 @@ button.pagingButton {
 .darkText {
   color: gray !important;
 }
-
-
+#pagingButtons {
+  cursor: pointer;
+}
+button.NextPage {
+  cursor: pointer;
+}
+.lessbtn{
+  cursor: pointer;
+}
+span.merchbadge {
+  padding-right: 142px;
+}

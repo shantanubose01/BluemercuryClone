@@ -26,8 +26,8 @@
         <div class="header_icons">
         <p class="header_items_right"><i class="fa-regular fa-heart"></i>    WishList</p>
         <p class="header_items_right"><i class="fa-solid fa-magnifying-glass"></i>     Search</p>
-        <p class="header_items_right"><i class="fa-regular fa-user"></i>     Sign In/Up</p>
-        <p class="header_items_right"><i class="fa-solid fa-bag-shopping"></i>     Bag</p>
+        <p class="header_items_right"><i class="fa-regular fa-user"></i><a class="menuanchor" href="signup.html">    Sign In/Up</a></p>
+        <p class="header_items_right"><i class="fa-solid fa-bag-shopping"></i><a class="menuanchor" href="cart.html">     Bag</a></p>
          </div>
     </div>
 
@@ -35,7 +35,7 @@
     <div id="heading_second_row">
         <div></div>
         <div class="btn1"><button id="disappear"><a id="shop" class="heading_a">SHOP</a></button></div>
-        <div><a class="heading_a" id="go-to-new">NEW!</a></div>
+        <div><a class="heading_a" href="new-arrivals.html" id="go-to-new">NEW!</a></div>
         <div><a class="heading_a">BRANDS</a></div>
         <div><a class="heading_a">EXPLORE</a></div>
         <div><a class="heading_a">EVENTS</a></div>
@@ -123,12 +123,12 @@
         <span class="SubCollectionsSubHeader">Select One to narrow results</span>
       </div>
       <div class="SubCollections__Links ">
-        <a href="/" class="SubCollection">Bath & Body</a>
-        <a href="/" class="SubCollection">Fragrance</a>
-        <a href="/" class="SubCollection">Hair Care</a>
-        <a href="/" class="SubCollection">Makeup</a>
-        <a href="/" class="SubCollection">Skin Care</a>
-        <a href="/" class="SubCollection">Tools & Accessories</a>
+        <a href="" class="SubCollection">Bath & Body</a>
+        <a href="" class="SubCollection">Fragrance</a>
+        <a href="" class="SubCollection">Hair Care</a>
+        <a href="" class="SubCollection">Makeup</a>
+        <a href="" class="SubCollection">Skin Care</a>
+        <a href="" class="SubCollection">Tools & Accessories</a>
       </div>
       <div class="FiltersHeader">FILTER NEW ARRIVALS BY</div>
 
@@ -188,13 +188,14 @@
         <div class="sort">
           <span class="sortHeader">Sort By</span>
           <div class="Sort__DropDown">
+            <div class="sort_option">
           <select name="" id="filterrole" onchange="handlerolefilter()">
             <option value="Featured">Featured</option>
-            <option  value="New Arrivals">New Arrivals</option>
-            <option value="Best Sellers">Best Sellers</option>
+            <option  value="ascending">Product Name</option>
             <option value="Price, Low to High">Price, Low to High</option>
             <option value="Price, High to Low">Price, High to Low</option>
           </select>
+          </div>
           </div>
         </div>
       </div>
@@ -205,13 +206,10 @@
         <div class="showOSS">
           <p class="showOSS_title">Show out of stock items</p>
           <label class="switch">
-            <input type="checkbox" checked>
+            <input id="checkbtn" type="checkbox" checked>
             <span class="sliderbtn round">Yes</span>
           </label>
-          <!-- <label class="switch">
-            <input type="checkbox" checked>
-            <span class="sliderbtn round">No</span>
-          </label> -->
+          
         </div>
         <div class="result">365 result</div>
       </div>
@@ -220,7 +218,7 @@
       <div id="collectionProductCardGrid">
       </div>
       <div class="CollectionsGrid__Pages">
-        <button class="PreviousPage" onclick="previousPage()"><span>&lt;</span></button>
+        <button class="PreviousPage" onclick="previousPage()"><span class="lessbtn">&lt;</span></button>
         <span id="pagingButtons"></span>
         <button class="NextPage" onclick="nextPage()">></button>
       </div>
@@ -234,41 +232,60 @@
         <div id="foot">
             <div id="foot-first">
                 <p>Get Expert Beauty Insight & Offers</p>
-                <input type="email" name="" id="email" placeholder="EMAIL ADDRESS">
+                <input type="email" name="" id="email" placeholder="EMAIL ADDRESS"> 
                 <button onclick="mailSent()">&rarr;</button>
-                <div>To learn more about how we use your information and your rights, see Privacy Note</div>
+                
+                <br>
+                <br>
+                <div>By continuing, you agree to Bluemercury's <span id="underline">Privacy Practices</span>.</div>
+                <br>
+               
+                <div id="socialicons">
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-pinterest-p"></i>
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-youtube"></i>
+                </div>
+                <br>
                 <div class="copyright">Copyright 2022 bluemercury. All Rights Reserved.</div>
             </div>
-            <div>
-                <p>BLUEMERCURY</p>
-                <p>Our Company</p>
-                <p>Store Locator</p>
-                <p>Spa Menu</p>
-                <p>Press</p>
-                <p>Careers</p>
+            <div id="foot_first">
+                <p id="foot_p">BLUEMERCURY</p>
+                <p id="foot_p">Our Company</p>
+                <p id="foot_p">Store Locator</p>
+                <p id="foot_p">In-Store & Online Events</p>
+                <p id="foot_p">Spa Menu</p>
+                <p id="foot_p">Vendor Submissions</p>
+                <p id="foot_p">Careers</p>
+                <p id="foot_p">Diversity & Inclusion</p>
             </div>
-            <div>
-                <p>MY ACCOUNT</p>
-                <p>My Account</p>
-                <p>Blue Rewards</p>
+            <div id="foot_second">
+                <p id="foot_p">MY ACCOUNT</p>
+                <p id="foot_p">My Account</p>
+                <p id="foot_p">Blue Rewards</p>
+                <p id="foot_p">Gift Card Balance Checker</p>
             </div>
-            <div>
-                <p>CUSTOMER SERVICE</p>
-                <p>Contact Us</p>
-                <p>Help & FAQ</p>
-                <p>Offers</p>
-                <p>Klarna</p>
+            <div id="foot_third">
+                <p id="foot_p">CUSTOMER SERVICE</p>
+                <p id="foot_p">Contact Us</p>
+                <p id="foot_p">Help & FAQ</p>
+                <p id="foot_p">Shipping Returns & Exchange</p>
+                <p id="foot_p">Gift Cards</p>
+                <p id="foot_p">Offer & Promotions</p>
+                <p id="foot_p">Klarna</p>
             </div>
-            <div>
-                <p>RESOURCES</p>
-                <p>Terms & Conditions</p>
-                <p>Privacy Policy</p>
-                <p>Accessibility</p>
-                <p>COVID-19 Updates</p>
+            <div id="foot_fourth">
+                <p id="foot_p">RESOURCES</p>
+                <p id="foot_p">Terms & Conditions</p>
+                <p id="foot_p">Privacy Note</p>
+                <p id="foot_p">Do Not Sell My Personal Information</p>
+                <p id="foot_p">CA Privacy Rights</p>
+                <p id="foot_p">Accessibility</p>
+                <p id="foot_p">Affiliate Program</p>
             </div>
         </div>
         <!-- footer done -->
-
 </html>
 <script src="product.js"></script>
 
