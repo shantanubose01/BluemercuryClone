@@ -8,8 +8,11 @@ function otpfun(e){
         {
             alert("Please Enter correct OTP");
         }
-        else{
+        else if (otp==="1234"){
             alert("Your Order Placed Successfully");
+        }
+        else{
+            alert("Please Enter a Valid OTP!")
         }
     }
     

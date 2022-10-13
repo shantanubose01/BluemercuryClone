@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/8b305340ae.js" crossorigin="anonymous"></script>  
     <link rel="stylesheet" href="cart.css">
 </head>
-<body onload="slideShow()">
+<body >
     
     <header>
         <div>
@@ -121,49 +121,36 @@
     </form>
 
     <!-- cart details -->
-    <div class="small-container cart-page">
-        <table>
-                <tr>
-                    <th>Ready to Ship</th>
-                    <th>Brand Name</th>
-                    <th>Product Name</th>
-                    <th>Price</th>
-                    <th>Quantity</th>
-                    
-                </tr>
-                <hr id="tab">
-                <tr>
-                       <td>
-                            <img src="https://cdn.shopify.com/s/files/1/0283/0185/2747/products/variant_images-color-smokeytopaz-814309022881-1_235x.jpg?v=1665393037" alt="">
-                        </td>
-                        <td>
-                                <p>mayblene</p>
-                        </td> 
-                        <td>
-                                <p>lotion</p>
-                        </td> 
-                        <td>
-                                <p>$50.00</p>
-                        </td>      
-                        <td>
-                            <p>02</p>
-                    </td>   
-                        
-                        
-                        <!-- append here -->
-                    
-                </tr>
-        </table>
-        
-        <!-- <table>
-            <tbody class="cart">
-                <tr> -->
-                   <!--append here-->
-                <!-- </tr>
-            </tbody>
-        </table> -->
-   
-</div>
+    <div id="head-id">
+        <div style="font-size: 20px;">Ready to Ship</div>
+        <div style="text-align: left; margin-left: 25%">Product</div>
+        <div>Price</div>
+        <div style="text-align: left; margin-left: 48%;">Quantity</div>
+        <div style="text-align: left; margin-left: 32%;">Total</div>
+    </div>
+
+    <hr style="width: 70%; margin: auto;">
+
+    <div id="cart-products">
+        <!-- <div id="head-id">
+            <div>Ready to Ship</div>
+            <div>Product</div>
+            <div>Price</div>
+            <div>Quantity</div>
+            <div>Total</div>
+        </div> -->
+    </div>
+
+    <div class="subtotal">
+        <p style="color: rgba(18, 40, 76, 0.8); font-size: 16px; padding-right: 10px;">0</p>
+        <p style="padding-right: 10px; color: #12284c; font-size: 16px;">Subtotal</p>
+    </div>
+
+
+
+
+
+
     <hr id="tab">
     <p id="label" >Additional Offerings</p>
     <p id="p1">Based on the items in your bag, you've qualified for the following offers.</p>
@@ -210,6 +197,11 @@
     </form>
     <div id="blank">
         <p id="ls">Shipping, Taxes, Beauty Cards, and additional discounts applied at checkout</p>
+    </div>
+
+    <div id="promo">
+     
+
     </div>
 
     <form id="ckeckout">

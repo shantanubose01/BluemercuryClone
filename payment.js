@@ -38,3 +38,5 @@ localStorage.setItem('pay',JSON.stringify(paymentArr));
 
  window.location.href='otp.html';
 }
+
+
