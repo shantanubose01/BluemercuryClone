@@ -55,13 +55,24 @@ function loginForm(){
     
     if(isPresent.length!=0)
     {
+        
+        document.getElementById("email").style.borderColor="green";
+        
+        document.getElementById("password").style.borderColor="green";
+        document.getElementById("error").innerHTML="";
+        display();
+        function display(){
         alert("Login Succefull");
+        }
         localStorage.setItem("loginData",JSON.stringify(obj));
         window.location.href="index.html";
     }
     else{
         document.getElementById("error").innerHTML="";
         p.innerText="Incorrect email or password.";
+       
+    
+       
         p.style.color="#cb2b2b";
        p.style.width="95%";
       

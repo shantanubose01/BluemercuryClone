@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
     <link rel="stylesheet" href="login.css">
     <script src="https://kit.fontawesome.com/8b305340ae.js" crossorigin="anonymous"></script>
 </head>
@@ -110,9 +110,10 @@
     <p id="login">LOGIN</p>
     <p id="enter">Please enter your email and password:</p>
     <div id="error"></div>
-    <form action="">
-    <input id="email" type="text" placeholder="Email">
-    <input id="password" type="password" placeholder="Password">
+    <form action="" method="post">
+    <input id="email" type="email" class="Form_Input" name="customer[email]" required="" placeholder="Email" aria-label="Email" autofocus>
+    
+    <input id="password" type="password" required="" placeholder="Password" aria-label="Password" autofocus>
     <input type="submit" value="Login">
 </form>
     <p id="sign">Don't have an account? <a href="signup.html">create one</a> </p>

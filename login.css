@@ -232,7 +232,7 @@ form{
     margin: auto;
     text-align: center;
 }
-input[type="text"]{
+input[type="Email"]{
     
     
     width:100%;
@@ -241,6 +241,7 @@ input[type="text"]{
     border-color: calc();
     margin-top: 14px;
     resize: vertical;
+    color: #666;
     
 }
 input[type="password"]{
@@ -251,7 +252,7 @@ input[type="password"]{
     box-sizing: border-box;
     margin-top: 18px;
     resize: vertical;
-    
+    color: #666;
 
 }
 input[type="submit"]{

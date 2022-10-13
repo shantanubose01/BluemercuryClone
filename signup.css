@@ -234,7 +234,7 @@ form{
     margin-top: 18px;
 
 }
-input[type="text"]{
+input[type="text"] {
     
     
     width:100%;
@@ -242,7 +242,18 @@ input[type="text"]{
     box-sizing: border-box;
     margin-top: 18px;
     resize: vertical;
-    
+    color: #666;
+}
+
+input[type="email"]{
+     
+    width:100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    resize: vertical;
+    color: #666;
+
 }
 input[type="submit"]{
     

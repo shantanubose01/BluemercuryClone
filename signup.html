@@ -7,7 +7,7 @@
     <title>signup</title>
     <link rel="stylesheet" href="signup.css" >
     <script src="https://kit.fontawesome.com/8b305340ae.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    
 </head>
 <body onload="slideShow()">
     <!-- Header Started -->
@@ -111,18 +111,17 @@
     <div id="status"></div>
     <form action="">
        
-    <input id="email" type="text" placeholder="Email*">
-    <input id="firstName" type="text" placeholder="First Name*">
-    <input id="lastName"  type="text" placeholder="Last Name*">
+    <input id="email" type="email"  required=""  placeholder="Email*">
+    
+    <input id="firstName" type="text"  required=""  placeholder="First Name*">
+    <input id="lastName"  type="text" required=""  placeholder="Last Name*">
     <div id="flex">
-    <input id="password"  type="password" autocomplete="current-password" required="" placeholder="Password*" > 
-     <div>
-      
-    </div>
+    <input id="password"  type="password" autocomplete="current-password" required=""  placeholder="Password*" > 
+    
     </div>
     </div>
        <div id="h5">
-        <p >Password should contains between 8 to 12 characters</p>
+        <p id="color">Password should contains between 8 to 12 characters</p>
          <div><p>*Indicates Required Field</p></div>
        </div>
     

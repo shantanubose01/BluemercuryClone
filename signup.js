@@ -32,48 +32,21 @@ function signup(){
     });
     
    
-    if(email=="" || firstname=="" || lastname=="" || password=="")
+     if(password.length<8 || password.length>12)
     {
-      var b=document.createElement("p");
-      document.getElementById("status").innerHTML="";
-      b.innerText="Please Enter Required Field";
-      b.style.color="#cb2b2b";
-       b.style.width="95%"
-       document.getElementById("status").style.backgroundColor="#e4c4c4";
-       document.getElementById("status").style.textAlign="centre";
-       document.getElementById("status").style.margin="auto";
-       b.style.marginTop="5px";
-       document.getElementById("status").style.fontSize="18px";
-
-       document.getElementById("status").append(b);
-
-    }
-    else  if(password.length<8 || password.length>12)
-    {
-      document.getElementById("status").innerHTML="";
-      var c=document.createElement("p");
-      document.getElementById("status").innerHTML="";
-      c.innerText="Password should contains between 8 to 12 characters";
-      c.style.color="#cb2b2b";
-       c.style.width="95%";
-       document.getElementById("status").style.backgroundColor="#e4c4c4";
-       
-    
-       document.getElementById("status").style.textAlign="centre";
-       document.getElementById("status").style.margin="auto";
-       c.style.marginTop="15px";
-       document.getElementById("status").style.fontSize="18px";
-
-       document.getElementById("status").append(c);
-       document.getElementById("password").value="";
-       document.getElementById("password").style.borderColor="#cb2b2b"; 
-   
-   
+      document.getElementById("status").innerHTML=" ";
+      document.getElementById("status").innerText=" ";
+      document.getElementById("status").style=" ";
+      document.getElementById("color").style.color="red";
 
     }
     else if(isPresent.length!=0)
      {
-      document.getElementById("status").innerHTML="";
+      document.getElementById("color").style.color="#666";
+      
+      
+      document.getElementById("status").innerHTML=" ";
+      document.getElementById("status").style=" ";
        p.innerText="This email address is already associated with an account. If this account is yours, you can reset your password";
        document.getElementById("password").style.borderColor="calc()";
        p.style.color="#cb2b2b";
@@ -91,7 +64,8 @@ function signup(){
         document.getElementById("password").value="";
        
      }
-     else{
+     else if(isPresent.length==0){
+     
       var data={
         email:document.getElementById("email").value,
         firstname:document.getElementById("firstName").value ,
@@ -104,7 +78,9 @@ function signup(){
         
     localStorage.setItem("userData",JSON.stringify(signupData));
 
-    document.getElementById("status").innerHTML="";
+    document.getElementById("status").innerHTML=" ";
+    document.getAnimations("status").style=" ";
+    document.getElementById("color").style.color="#666";
     alert("Account is Created Succesfully");
     window.location.href="login.html";
 
@@ -114,14 +90,14 @@ function signup(){
 }      
     
 const togglePassword = document.querySelector('#togglePassword');
-const password = document.querySelector('#password');
+  const password = document.querySelector('#password');
 
-togglePassword.addEventListener('click', function (e) {
-  // toggle the type attribute
-  const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
-  password.setAttribute('type', type);
-  // toggle the eye slash icon
-  this.classList.toggle('fa-eye-slash');
+  togglePassword.addEventListener('click', function (e) {
+    // toggle the type attribute
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+    // toggle the eye slash icon
+    this.classList.toggle('fa-eye-slash');
 });
 
 
