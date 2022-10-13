@@ -650,3 +650,25 @@ button.NextPage {
 span.merchbadge {
   padding-right: 142px;
 }
+
+
+
+/*  product page css done */
+
+/* media query*/
+@media only screen and (max-width: 768px) {
+  #collectionProductCardGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+  .productCardBrand {
+    color: rgb(18, 40, 76);
+    font-size: 5px;
+    text-align: center;
+}
+.newarrival_left {
+  display: none;
+}
+
+}
