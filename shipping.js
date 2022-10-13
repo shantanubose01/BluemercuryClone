@@ -38,6 +38,7 @@ displayData(infoArr);
 
       tr.append(td1,td2,td3,td4,td5,td6,td7,td8);
       document.getElementById("body2").append(tr);
+      localStorage.removeItem("infoList");
     });
     
 }
