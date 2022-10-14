@@ -19,6 +19,7 @@ function addingData() {
         <button onclick="plus(divfo${i})">+</button>
     </div>
     <div class="get-total">${product.price}</div>
+   
 </div>`
 
         let hrTag = `<hr style="width: 70%; margin: auto;">`

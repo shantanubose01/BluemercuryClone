@@ -323,3 +323,7 @@ hr
 #underline{
     text-decoration: underline;
 }
+#header_anchor{
+    text-decoration: none;
+    color: #12284c;
+}
