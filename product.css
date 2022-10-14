@@ -656,7 +656,8 @@ span.merchbadge {
 /*  product page css done */
 
 /* media query*/
-@media only screen and (max-width: 768px) {
+ @media all and (max-width: 768px) and (min-width:601px){ 
+
   #collectionProductCardGrid{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -664,11 +665,46 @@ span.merchbadge {
   }
   .productCardBrand {
     color: rgb(18, 40, 76);
-    font-size: 10px;
+    font-size: 14px;
     text-align: center;
 }
 .newarrival_left {
   display: none;
 }
+.newarrival_right {
+  width: 100%;
+  padding-right: 40px;
+  margin: auto;
+  text-align: center;
+}
+p.merchbadgeCB {
+  padding-left: 83px;
+}
+.CollectionsGrid__Pages {
+  width: 57%;
+  text-align: center;
+}
 
+}
+@media all and (max-width: 601px) and (min-width:200px) {
+  #collectionProductCardGrid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+  .newarrival_left {
+    display: none;
+}
+  .newarrival_right {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-left: 14px;
+  }
+  .CollectionsGrid__Pages {
+    width: 109%;
+    text-align: center;
+    margin: auto;
+  }
+  
 }
