@@ -13,11 +13,13 @@ function addingData() {
         <p>${product.title}</p>
     </div>
     <div id="divt${i}">${product.price}</div>
+    
     <div id="divfo${i}">
         <button onclick="minus(divfo${i})">-</button>
         <p>1</p>
         <button onclick="plus(divfo${i})">+</button>
     </div>
+   
     <div class="get-total">${product.price}</div>
    
 </div>`
@@ -61,7 +63,7 @@ function minus(val) {
     let id = val.id;
     let p = document.querySelector(`#${id} > p`);
     let previous = Number(p.textContent);
-    if (previous > 1) {
+     if (previous >= 1) {
         previous--;
         let next = document.querySelector(`#${id} + div`).textContent;
         let nx = "";
@@ -82,6 +84,7 @@ function minus(val) {
 
         document.querySelector(`#${id} + div`).textContent = `$${nx - z}`
     }
+   
     p.textContent = previous;
     subTotal()
     localStorage.removeItem("bluemercuryFinalAmount");

@@ -578,6 +578,10 @@ p{
 #underline{
     text-decoration: underline;
 }
+#remote_item{
+    display: flex;
+    flex-direction: column;
+}
 
 
 /* footerr end */
