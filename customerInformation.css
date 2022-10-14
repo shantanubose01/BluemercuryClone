@@ -10,7 +10,7 @@
      img{
         width: 20%;
         margin-left: 39%;
-        margin-top: 2%;
+       
      }
 
      #par{
@@ -30,13 +30,13 @@
      }
 
      #para{
-        color: black;
+        color: #0B1740;
      }
 
      #lb1{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 17px;
-        color: #3F4040;
+        color: #0B1740;
 
      }
      #lb2{
@@ -56,9 +56,9 @@
         border-radius: 5px;
      }
      #middle{
-        width: 48%;
+        width: 85%;
         margin: auto;
-        margin-left: 27%;
+        margin-left: 7%;
      }
 
      #form2{
@@ -68,7 +68,7 @@
      #lb3{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 17px;
-        color: black;
+        color:#0B1740;
 
      }
      #country{
@@ -183,6 +183,8 @@
         cursor: pointer;
      }
 
+    
+
      #bottom{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 15px;
@@ -192,18 +194,10 @@
   #check{
        cursor: pointer;
       }
-      #p-right-section {
-        
-     }
-     
-     /* #main-div {
-         display: grid;
-         grid-template-columns: 1fr 1fr;
-     } */
+    
+   
      
      .p-grid {
-         /* display: grid; */
-         /* grid-template-rows: 1fr 1fr; */
          width: 80%;
          margin: 10px auto;
      }
@@ -219,7 +213,6 @@
          display: flex;
          flex-direction: column;
          align-items: flex-start;
-         /* margin-left: 10px; */
      }
      .p-grid > div:nth-child(1) div:nth-child(2) p {
          margin: 0;
@@ -243,7 +236,6 @@
          grid-template-columns: 1fr 1fr;
          border: 1px solid #12284c;
          width: 80%;
-         /* grid-gap: 10px; */
          margin: auto;
          height: 40px;
      }
