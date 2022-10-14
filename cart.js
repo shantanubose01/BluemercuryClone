@@ -123,3 +123,8 @@ document.getElementById("bt").addEventListener("click",opencustomerfun);
 function opencustomerfun(){
   window.open("customerInformation.html", "_self")
 }
+
+document.getElementById("join").addEventListener("submit",gotosign);
+function gotosign(){
+    window.open("signup.html","_self")
+}
