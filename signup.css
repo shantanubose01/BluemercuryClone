@@ -1,7 +1,25 @@
+body{
+    margin: 0;
+}
 .header_link{
     display: inline-block;
     text-transform: uppercase;
     color: #12284c;
+    
+}
+#header{
+    position: fixed;
+    width: 100%;
+    background-color: white;
+}
+#slider{
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 200px;
+    background-color: white;
+
 }
 .header_items_right{
     text-transform: uppercase;
@@ -11,6 +29,9 @@
 .header_item{
     display: flex;
     width: 33.3%;
+}
+#heading{
+    margin-top: 1000px;
 }
 .header_left{
   justify-content: flex-start;
@@ -84,7 +105,8 @@ p{
 }
 #heading_second_row{
     display: flex;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    background-color: white;
 }
 #heading_second_row > div{
     flex-basis: 120px;
@@ -201,6 +223,10 @@ button {
     }
 }
 
+#account{
+    margin-top: 150px;
+
+}
 form{
     width:40%;
     margin: auto;

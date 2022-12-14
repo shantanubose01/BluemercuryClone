@@ -1,7 +1,22 @@
+body{
+    margin: 0;
+}
+
 .header_link{
     display: inline-block;
     text-transform: uppercase;
     color: #12284c;
+
+}
+#account{
+    margin-top: 200px;
+}
+#header{
+    background-color: white;
+    /* display: inline-block; */
+    position: fixed;
+    width: 100%;
+   
 }
 .header_items_right{
     text-transform: uppercase;
@@ -84,7 +99,17 @@ p{
 }
 #heading_second_row{
     display: flex;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    position: fixed;
+    width: 100%;
+    background-color: white;
+
+}
+#slider{
+    margin-top: 70px;
+    position: fixed;
+    width: 100%;
+    background-color: white;
 }
 #heading_second_row > div{
     flex-basis: 120px;
